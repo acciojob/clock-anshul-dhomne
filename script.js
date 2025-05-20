@@ -12,6 +12,6 @@ setInterval(
         currentDate = new Date();
 
         // Update the timer Dispaly
-        timerDisplay.innerHTML = currentDate.toLocaleDateString();
+        timerDisplay.innerHTML = currentDate.toLocaleString();
     },1000
 )
